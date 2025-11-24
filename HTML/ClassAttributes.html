@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .button {
+            background: rgb(255, 17, 0);
+            color: rgb(255, 252, 73);
+        }
+
+        #first-li {
+            color: rgb(228, 6, 6);
+        }
+
+        li {
+            font-size: 20px;
+        }
+    </style>
+
+    <script>
+        const items = document.querySelectorAll('.item');
+        items.forEach(item => {
+            item.style.fontWeight = 'bold';
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="container dark-mode rounded"></div>
+
+    <button class="button">Click me</button>
+
+    <ul>
+        <li id="first-li" class="item">One</li>
+        <li class="item" style="color: rgb(42, 165, 63);">Two</li>
+    </ul>
+
+</body>
+
+</html>

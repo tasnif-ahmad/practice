@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quotes in HTML Attributes</title>
+    <style>
+        #header {
+            background: #2196F3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Using double quotes -->
+    <div id="header" title="This uses double quotes">
+        <h1>HTML Attribute Quotes Example</h1>
+    </div>
+    
+    <!-- Using single quotes -->
+    <p id='intro' data-info='This uses single quotes'>
+        You can use <strong>single</strong> or <strong>double</strong> quotes in HTML attributes.
+    </p>
+    
+    <!-- Why single quotes are sometimes useful -->
+    <div title='He said, "Hello!"'>
+        This element uses single quotes because the text contains double quotes.
+    </div>
+    
+    <!-- Why double quotes are sometimes useful -->
+    <div title="It's a sunny day!">
+        This element uses double quotes because the text contains an apostrophe.
+    </div>
+
+    <script>
+        // Accessing attributes with JavaScript
+        const intro = document.getElementById("intro");
+        alert("Intro element says: " + intro.getAttribute("data-info"));
+    </script>
+</body>
+
+</html>
