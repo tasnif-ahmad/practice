@@ -1,0 +1,14 @@
+h1 {
+    color: rgb(133, 12, 12);
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(18, 18, 133);
+}
+
+div {
+    background: lightgray;
+    padding: 10px;
+}

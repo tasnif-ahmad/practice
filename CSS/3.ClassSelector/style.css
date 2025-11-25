@@ -1,0 +1,14 @@
+ .heading {
+     color: rgb(145, 15, 15);
+     text-align: center;
+ }
+
+ .paragraph {
+     font-size: 20px;
+     color: blue;
+ }
+
+ .box {
+     background: rgb(145, 145, 145);
+     padding: 10px;
+ }
