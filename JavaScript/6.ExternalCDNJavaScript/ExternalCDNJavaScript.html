@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript in Head Example</title>
+
+</head>
+
+<body>
+    <h2 id="result"></h2>
+    <!-- Linking to an external JavaScript library via CDN (Lodash) -->
+
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+
+    <script>
+        // Using a function from Lodash CDN
+        document.getElementById("result").innerHTML = _.upperCase('hello world');
+    </script>
+</body>
+
+</html>
