@@ -1,0 +1,19 @@
+body {
+    background-color: #b6b6b6;
+    font-family: Arial;
+}
+
+#title {
+    color: rgb(55, 0, 107);
+    text-align: center;
+}
+
+#btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: rgb(126, 0, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
